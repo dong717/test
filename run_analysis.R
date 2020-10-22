@@ -63,4 +63,4 @@ for(i in 1:30){
 }
 
 #export my_data.
-write.table(my_data, file = "./tidySet.csv")
+write.table(my_data, file = "./tidySet.txt",row.names = FALSE)
